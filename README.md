@@ -5,8 +5,15 @@ Handlebar is a fresh, new WordPress theme made for easy reading and focus on you
 
 Support
 =======
+
 Having issues with Handlebar or found a bug? Email me at noah@codingbean.com, and I'll get back to you as soon as possible.
 
 Demo
 ====
+
 Want to check out Handlebar before you upload it to your blog? [Here's the demo](http://codingbean.com/theme/handlebar/). It's kept up-to-date with each release.
+
+Use
+===
+
+Ready to use Handlebar on your blog? Awesome! Just click 'Download ZIP' to the right and it will download a ZIP file to your downloads folder. From there, just extract the ZIP, and upload the file titled 'Handlebar-master' to your WordPress install. Easy, peasy. Lemon squeezy.
