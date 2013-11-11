@@ -1,0 +1,57 @@
+/*=========================*/
+/* Little screens */
+/*=========================*/
+@media screen and (min-width: 0px) and (max-width: 800px) {z
+	.bottom {
+		display:  none;
+	}
+
+	.container {
+		display: none;
+	}
+
+	.floats {
+		display: none;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.header {
+		display: none;
+	}
+
+	.mobile-container {
+		display: block;
+	}
+
+	.mobile-full {
+		display: block;
+	}
+
+	.mobile-footer {
+		display: block;
+	}
+
+	.mobile-navbar { 
+		display: block;
+	}
+
+	.navbar { 
+		display: none;
+	}
+
+	.toTop-hold {
+		display: none;
+	}
+}
+
+/*=========================*/
+/* Med to large screens */
+/*=========================*/
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+	.mobile-full {
+		display: none;
+	}
+}
