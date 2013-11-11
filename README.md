@@ -16,4 +16,4 @@ Want to check out Handlebar before you upload it to your blog? [Here's the demo]
 Use
 ===
 
-Ready to use Handlebar on your blog? Awesome! Just click 'Download ZIP' to the right and it will download a ZIP file to your downloads folder. From there, just extract the ZIP, and upload the file titled 'Handlebar-master' to your WordPress install. Easy, peasy. Lemon squeezy.
+Ready to use Handlebar on your blog? Awesome! Just click 'Download ZIP' to the right and it will download a ZIP file to your downloads folder. From there, just extract the ZIP, and upload the file titled 'Handlebar-master' to your WordPress install. Easy, peasy. Lemon squeezy. Also, feel free to send me an email with your blog URL so I can add it to the list!
