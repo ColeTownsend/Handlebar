@@ -23,7 +23,7 @@ Want to check out Handlebar before you upload it to your blog? [Here's the demo]
 Use
 ===
 
-Ready to use Handlebar on your blog? Awesome! Just visit [here](http://bit.ly/handlebarWP), and it will download a ZIP file to your downloads folder (it's just a link to downlaod the ZIP to the right, but I'd like to keep track of downloads. From there, just extract the ZIP, and upload the file titled 'Handlebar-master' to your WordPress install. Easy, peasy. Lemon squeezy.
+Ready to use Handlebar on your blog? Awesome! Just visit [here](http://bit.ly/handlebarWP), and it will download a ZIP file to your downloads folder (it's just a link to download the ZIP to the right, but I'd like to keep track of downloads. From there, just extract the ZIP, and upload the file titled 'Handlebar-master' to your WordPress install. Easy, peasy. Lemon squeezy.
 
 In the Wild
 =====
