@@ -76,6 +76,22 @@ h4 {
 }
 
 /*=========================*/
+/* Tagline */
+/*=========================*/
+.lead {
+	font-family: 'Stoke', serif;
+	font-size: 28px;
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #DDD0C2;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+	text-align: center;
+	position: relative;
+}
+
+/*=========================*/
 /* Image styles */
 /*=========================*/
 .aligncenter {
