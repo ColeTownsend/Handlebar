@@ -23,7 +23,7 @@ Want to check out Handlebar before you upload it to your blog? [Here's the demo]
 Use
 ===
 
-Ready to use Handlebar on your blog? Awesome! Just visit [here](https://github.com/Codingbean/Handlebar/releases) and download the latest stable release. From there, just extract the ZIP, and upload the file titled 'Handlebar-master' to your WordPress install. Easy, peasy. Lemon squeezy.
+Ready to use Handlebar on your blog? Awesome! Just visit [here](https://github.com/Codingbean/Handlebar/releases) and download the latest stable release. From there, just extract the ZIP, and upload the file titled 'Handlebar' to your WordPress install. Easy, peasy. Lemon squeezy.
 
 In the Wild
 =====
