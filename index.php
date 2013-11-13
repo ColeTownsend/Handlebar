@@ -12,9 +12,11 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		<!--Start of hero-->
 		<div class="header" align="center">
 			<h1><?php echo get_bloginfo('name'); ?></h1>
-			<?php if(get_bloginfo('description') <> '') { ?>
+			<!--Remove this if you don't want description on homepage-->
+			<?php if (get_bloginfo('description') <> '') : ?>
 				<p class="lead"><?php echo get_bloginfo('description'); ?></p>
-			<?php } ?>
+			<?php endif; ?>
+			<!--End of description-->
 			<img src="<?php bloginfo('template_url'); ?>/imgs/m-light.png" class="stache"/>
 		</div>
 		<!--End of hero-->
