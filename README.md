@@ -6,7 +6,7 @@ Handlebar is a fresh, new WordPress theme made for easy reading and focus on you
 Features include...
   * Portfolio section
   * Custom lightbox for images in portfolio
-  * Two sidebars
+  * Two widget areas
   * Jump to top button
   * And more!
 
