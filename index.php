@@ -22,7 +22,17 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 
 		<!--Start of portfolio-->
-		<?php if (is_single() == false) : ?>
+		<?php //Start getting all portfolio posts ?>
+		<?php $portCount = 0; ?>
+		<?php if (have_posts()) : ?>
+			<?php while (have_posts()) : the_post(); ?>
+				<?php if (get_post_format($post_id) == "image") : ?>
+					<?php $portCount++; ?>
+				<?php endif; ?>
+			<?php endwhile; ?>
+		<?php endif ; ?>
+		<?php //End of getting port posts ?>
+		<?php if (is_single() == false && $portCount > 0) : ?>
 			<div class="container" id="portfolio">
 				<div class="grid-container">
 					<?php query_posts("posts_per_page=-1"); ?>
@@ -65,7 +75,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		<!--End of portfolio-->
 
 		<!--Start of mobile portfolio-->
-		<?php if (is_home()) : ?>
+		<?php if (is_home() && $portCount > 0) : ?>
 			<div class="mobile-container" id="portfolio" align="center">
 				<br/><br/><br/>
 				<?php query_posts("posts_per_page=-1"); ?>
