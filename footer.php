@@ -1,5 +1,5 @@
-		<!--Scroll to top-->
-		<!--Put in span to hide if mobile-->
+		<!-- scroll to top -->
+		<!-- put in span to hide if mobile -->
 		<span class="toTop-hold">
 			<div class="toTop">
 				<div class="toTop-inner">
@@ -10,7 +10,7 @@
 			</div>
 		</span>
 		
-		<!--Start of bottom widget area-->
+		<!-- start of bottom widget area -->
 		<?php if (is_active_sidebar('bottom')) : ?>
 			<div class="bottom">
 				<div class="bottom-inner">
@@ -20,9 +20,9 @@
 				</div>
 			</div>
 		<?php endif; ?>
-		<!--End of bottom widget area-->
+		<!-- end of bottom widget area -->
 
-		<!--Start of footer-->
+		<!-- start of footer -->
 		<div class="footer">
 			<div class="grid-container">
 				<div class="grid-100">
@@ -31,15 +31,15 @@
 				</div>
 			</div>
 		</div>
-		<!--End of footer-->
+		<!-- end of footer -->
 
-		<!--Start of mobile footer-->
+		<!-- start of mobile footer -->
 		<div class="mobile-footer">
 			<div class="mobile-footer-textholder">
 				<p class="mobile-footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?><p>
 				<p class="mobile-footer-text">Handlebar by <a href="http://codingbean.org" style="color: #4D4D4D; text-decoration: none;">Codingbean</a></p>
 			</div>
 		</div>
-		<!--End of mobile footer-->
+		<!-- end of mobile footer -->
 	</body>
 </html>

@@ -11,13 +11,13 @@ Tags: retro, simple, clean, artists, minimal, portfolio
 Text Domain: handlebar
 */
 
-/*=========================*/
-/* Colors: adobe.ly/H7Kv3w */
-/*=========================*/
+/**
+/* Colors: adobe.ly/H7Kv3w
+ */
 
-/*=========================*/
-/* Core */
-/*=========================*/
+/**
+ * Core
+ */
 body {
 	margin: 0px;
 	padding: 0px;
@@ -26,9 +26,9 @@ body {
 	overflow: hidden;
 }
 
-/*=========================*/
-/* Headers */
-/*=========================*/
+/**
+ * Headers
+ */
 h1 {
 	font-family: 'Stoke', serif;
 	font-size: 160px;
@@ -75,9 +75,9 @@ h4 {
 	margin-bottom: 3px;
 }
 
-/*=========================*/
-/* Tagline */
-/*=========================*/
+/**
+ * Tagline
+ */
 .lead {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
@@ -91,9 +91,9 @@ h4 {
 	position: relative;
 }
 
-/*=========================*/
-/* Image styles */
-/*=========================*/
+/**
+ * Image styles
+ */
 .aligncenter {
 	display: block;
 	margin-left: auto;
@@ -122,9 +122,9 @@ h4 {
 	margin-bottom: 10px;
 }
 
-/*=========================*/
-/* Widget styles */
-/*=========================*/
+/**
+ * Widget styles
+ */
 .widget {
 	list-style-type: none;
 	margin-bottom: 20px;
@@ -184,9 +184,9 @@ h4 {
 	color: #908170;
 }
 
-/*=========================*/
-/* Bottom widget area */
-/*=========================*/
+/**
+ * Bottom widget area
+ */
 .bottom {
 	background-color: #4D4D4D;
 	list-style-type: none;
@@ -220,9 +220,9 @@ h4 {
 	padding-right: 200px;
 }
 
-/*=========================*/
-/* Pagination */
-/*=========================*/
+/**
+ * Pagination
+ */
 .nav-previous a, .nav-next a{
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
@@ -231,9 +231,9 @@ h4 {
 	color: #44392E;
 }
 
-/*=========================*/
-/* Comments */
-/*=========================*/
+/**
+ * Comments
+ */
 .avatar {
 	width: 40px;
 	height: 40px;
@@ -331,9 +331,9 @@ h4 {
 	cursor: pointer;
 }
 
-/*=========================*/
-/* General appearence */
-/*=========================*/
+/**
+ * General appearence
+ */
 .arrow-up {
 	width: 0; 
 	height: 0; 
@@ -671,9 +671,9 @@ h4 {
 	color: #B3A494;
 }
 
-/*=========================*/
-/* Loading overlay */
-/*=========================*/
+/**
+ * Loading overlay
+ */
 @-webkit-keyframes rotating {
     from{
         -webkit-transform: rotate(0deg);
@@ -710,9 +710,9 @@ h4 {
 	animation: rotating 2s linear infinite;
 }
 
-/*=========================*/
-/* Mobile stuff */
-/*=========================*/
+/**
+ * Mobile stuff
+ */
 .mobile-container {
 	padding: 3%;
 	display: none;

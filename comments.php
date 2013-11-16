@@ -1,4 +1,4 @@
-<!--Start of comments-->
+<!-- start of comments -->
 <?php if (is_single()) : ?>
 	<?php if (have_comments()) : ?>
 		<div class="comment-section-title">
@@ -18,7 +18,7 @@
 					<div class="comment-header">
 						<div class="comment-header-inner">
 							<?php echo ($comment->comment_author); ?> | <?php echo get_comment_date(); ?>
-							<!--Comment reply link here...-->
+							<?php // TODO: comment reply link ?>
 						</div>
 					</div>
 					<div class="comment-content">
@@ -43,4 +43,4 @@
 <br/>
 <?php comment_form(); ?>
 <?php endif; ?>
-<!--End of comments-->
+<!-- end of comments -->

@@ -2,20 +2,20 @@
 
 <html>
 	<head>
-		<!--Meta-->
+		<!-- meta -->
 		<title><?php echo get_bloginfo('name'); ?> :: <?php echo get_bloginfo('description'); ?></title>
 		<meta name="description" content="<?php echo get_bloginfo('description'); ?>"/>
 		<meta charset="UTF-8"/>
 		<meta name='viewport' content='width=device-width,initial-scale=1,target-densitydpi=device-dpi'/>
-		<!--CSS-->
+		<!-- CSS -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100|Stoke:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/responsive.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/grid.css">
-		<!--JS-->
-		<!--Gross... Just gross-->
+		<!-- JS -->
+		<!-- gross... just gross -->
 		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content.js"></script>
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 
-		<!--Start of navbar-->
+		<!-- start of navbar -->
 		<div class="grid-100 navbar">
 			<div class="grid-container">
 				<div class="grid-25">
@@ -44,10 +44,10 @@
 				<?php endif; ?>
 			</div>
 		</div>
-		<!--End of navbar-->
+		<!-- end of navbar -->
 
-		<!--Start of mobile navbar-->
+		<!-- start of mobile navbar -->
 		<div class="mobile-navbar">
 			<a href="<?php echo get_home_url(); ?>" class="navLogo"><?php echo get_bloginfo('name'); ?></a>
 		</div>
-		<!--End of mobile navbar-->
+		<!-- end of mobile navbar -->

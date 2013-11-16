@@ -1,30 +1,30 @@
 <?php get_header(); ?>
 <?php
 
-//=========================
-// Define global vars
-//=========================
+/**
+ * Define global variables
+ */
 $posts_per_page = get_option('posts_per_page');
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 ?>
 
-		<!--Start of hero-->
+		<!-- start of hero -->
 		<div class="header" align="center">
 			<h1><?php echo get_bloginfo('name'); ?></h1>
-			<!--Remove this if you don't want description on homepage-->
+			<!-- remove this if you don't want description on homepage -->
 			<?php if (get_bloginfo('description') <> '') : ?>
 				<p class="lead"><?php echo get_bloginfo('description'); ?></p>
 			<?php endif; ?>
-			<!--End of description-->
+			<!-- end of description -->
 			<img src="<?php bloginfo('template_url'); ?>/imgs/m-light.png" class="stache"/>
 		</div>
-		<!--End of hero-->
+		<!-- end of hero -->
 
 
 
-		<!--Start of portfolio-->
-		<?php //Start getting all portfolio posts ?>
+		<!-- start of portfolio -->
+		<?php // start getting all portfolio posts ?>
 		<?php $portCount = 0; ?>
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : the_post(); ?>
@@ -33,7 +33,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				<?php endif; ?>
 			<?php endwhile; ?>
 		<?php endif ; ?>
-		<?php //End of getting port posts ?>
+		<?php // end of getting port posts ?>
 		<?php if (is_single() == false && $portCount > 0) : ?>
 			<div class="container" id="portfolio">
 				<div class="grid-container">
@@ -74,9 +74,9 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 			</div>
 		<?php endif; ?>
 		<?php wp_reset_query(); ?>
-		<!--End of portfolio-->
+		<!-- end of portfolio -->
 
-		<!--Start of mobile portfolio-->
+		<!-- start of mobile portfolio -->
 		<?php if (is_home() && $portCount > 0) : ?>
 			<div class="mobile-container" id="portfolio" align="center">
 				<br/><br/><br/>
@@ -96,12 +96,12 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 			</div>
 		<?php endif; ?>
 		<?php wp_reset_query(); ?>
-		<!--End of mobile portfolio-->
+		<!-- end of mobile portfolio -->
 
 
 
-		<!--Start of blog-->
-		<?php //If there are widgets in the sidebar... ?>
+		<!-- start of blog -->
+		<?php // if there are widgets in the sidebar... ?>
 		<?php if (is_active_sidebar( 'sidebar-1' )) : ?>
 			<div class="floats" id="blog">
 				<div class="main">
@@ -187,11 +187,11 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 						</div>
 					</div>
 				</div>
-				<!--Clear the floats-->
+				<!-- clear the floats -->
 				<div style="clear: both;"></div>
 			</div>
 
-			<?php //If no sidebar... ?>
+			<?php // if no sidebar ?>
 			<?php else : ?>
 
 				<div class="full">
@@ -266,9 +266,9 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 					</div>
 				</div>
 		<?php endif; ?>
-		<!--End of blog-->
+		<!-- end of blog -->
 
-		<!--Start of mobile blog-->
+		<!-- start of mobile blog -->
 		<div class="mobile-full">
 			<div class="mobile-main">
 				<div class="mobile-container">
@@ -335,7 +335,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 			</div>
 		</div>
 	</div>
-	<!--End of mobile blog-->
+	<!-- end of mobile blog -->
 
 
 

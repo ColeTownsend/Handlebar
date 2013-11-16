@@ -1,13 +1,13 @@
 <?php
 
-//=========================
-// Theme support
-//=========================
+/**
+ * Theme support
+ */
 add_theme_support('post-thumbnails');
 register_sidebar(array('name'=>'Side'));
 add_theme_support('post-formats', array('image'));
 
-//Add support for the bottom widget area
+// add support for the bottom widget area
 register_sidebar(array(
   'name' => __('Bottom'),
   'id' => 'bottom',
@@ -16,11 +16,11 @@ register_sidebar(array(
   'after_widget' => '</div>'
 ));
 
-//=========================
-// Functions
-//=========================
+/**
+ * Functions
+ */
 function the_post_thumbnail_caption() {
-	//Kudos to bit.ly/18UNmaG
+	// kudos to bit.ly/18UNmaG
 	global $post;
   	$thumbnail_id    = get_post_thumbnail_id($post->ID);
   	$thumbnail_image = get_posts(array('p' => $thumbnail_id, 'post_type' => 'attachment'));
@@ -28,4 +28,5 @@ function the_post_thumbnail_caption() {
     	echo '<span>'.$thumbnail_image[0]->post_excerpt.'</span>';
   	}
 }
+
 ?>

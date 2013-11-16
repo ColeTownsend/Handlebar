@@ -1,6 +1,6 @@
-/*=========================*/
-/* Little screens */
-/*=========================*/
+/**
+ * Little screens
+ */
 @media screen and (min-width: 0px) and (max-width: 800px) {z
 	.bottom {
 		display:  none;
@@ -51,9 +51,9 @@
 	}
 }
 
-/*=========================*/
-/* Med to large screens */
-/*=========================*/
+/**
+ * Mid to large size screens
+ */
 @media screen and (min-width: 801px) and (max-width: 1024px) {
 	.mobile-full {
 		display: none;
