@@ -24,8 +24,3 @@ Use
 ===
 
 Ready to use Handlebar on your blog? Awesome! Just visit [here](https://github.com/Codingbean/Handlebar/releases) and download the latest stable release. From there, just extract the ZIP, and upload the file titled 'Handlebar' to your WordPress install. Easy, peasy. Lemon squeezy.
-
-In the Wild
-=====
-
-Here's a list of sites that use Handlebar...
