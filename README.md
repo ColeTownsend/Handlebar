@@ -13,7 +13,7 @@ Features include...
 Support
 =======
 
-Having issues with Handlebar or found a bug? Email me at noah@codingbean.com, and I'll get back to you as soon as possible.
+Having issues with Handlebar or found a bug? Email me at iam@codingbean.com, and I'll get back to you as soon as possible.
 
 Demo
 ====
