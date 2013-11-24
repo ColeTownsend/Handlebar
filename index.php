@@ -8,21 +8,6 @@ $posts_per_page = get_option('posts_per_page');
 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 ?>
-
-		<!-- start of hero -->
-		<div class="header" align="center">
-			<h1><?php echo get_bloginfo('name'); ?></h1>
-			<!-- remove this if you don't want description on homepage -->
-			<?php if (get_bloginfo('description') <> '') : ?>
-				<p class="lead"><?php echo get_bloginfo('description'); ?></p>
-			<?php endif; ?>
-			<!-- end of description -->
-			<img src="<?php bloginfo('template_url'); ?>/imgs/m-light.png" class="stache"/>
-		</div>
-		<!-- end of hero -->
-
-
-
 		<!-- start of portfolio -->
 		<?php // start getting all portfolio posts ?>
 		<?php $portCount = 0; ?>

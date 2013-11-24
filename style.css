@@ -12,7 +12,7 @@ Text Domain: handlebar
 */
 
 /**
-/* Colors: adobe.ly/H7Kv3w
+ * Colors: adobe.ly/H7Kv3w
  */
 
 /**
@@ -22,7 +22,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #DDD0C2;
-	/*Temp until page loads so sidebar is hidden - See content.js*/
+	/* temp until page loads so sidebar is hidden - See content.js */
 	overflow: hidden;
 }
 
@@ -482,6 +482,7 @@ h4 {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
+	-webkit-transform: translate3d(0, 0, 0);
 	moz-transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
