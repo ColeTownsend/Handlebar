@@ -26,7 +26,7 @@
 		<div class="footer">
 			<div class="grid-container">
 				<div class="grid-100">
-					<p class="footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?><p>
+					<p class="footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?></p>
 					<p class="footer-text">Handlebar by <a href="http://codingbean.org" style="color: #4D4D4D; text-decoration: none;">Codingbean</a></p>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 		<!-- start of mobile footer -->
 		<div class="mobile-footer">
 			<div class="mobile-footer-textholder">
-				<p class="mobile-footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?><p>
+				<p class="mobile-footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?></p>
 				<p class="mobile-footer-text">Handlebar by <a href="http://codingbean.org" style="color: #4D4D4D; text-decoration: none;">Codingbean</a></p>
 			</div>
 		</div>
