@@ -319,8 +319,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- end of mobile blog -->
+		<!-- end of mobile blog -->
 
 
 
