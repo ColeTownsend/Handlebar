@@ -1,55 +1,17 @@
 /**
  * Little screens
  */
-@media screen and (min-width: 0px) and (max-width: 800px) {z
-	.bottom {
-		display:  none;
-	}
-
-	.bottom-inner {
+@media screen and (min-width: 0px) and (max-width: 800px) {
+	.bottom, .bottom-inner, .container, .toTop-hold,
+	.floats, .footer, .header, .navbar {
 		display: none;
 	}
 
-	.container {
-		display: none;
-	}
-
-	.floats {
-		display: none;
-	}
-
-	.footer {
-		display: none;
-	}
-
-	.header {
-		display: none;
-	}
-
-	.mobile-container {
+	.mobile-container, .mobile-full, .mobile-footer, .mobile-navbar {
 		display: block;
-	}
-
-	.mobile-full {
-		display: block;
-	}
-
-	.mobile-footer {
-		display: block;
-	}
-
-	.mobile-navbar { 
-		display: block;
-	}
-
-	.navbar { 
-		display: none;
-	}
-
-	.toTop-hold {
-		display: none;
 	}
 }
+
 
 /**
  * Mid to large size screens

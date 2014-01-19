@@ -1,31 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
 <html>
 	<head>
 		<!-- meta -->
+		<meta charset="UTF-8"/>
 		<title><?php echo get_bloginfo('name'); ?> :: <?php echo get_bloginfo('description'); ?></title>
 		<meta name="description" content="<?php echo get_bloginfo('description'); ?>"/>
-		<meta charset="UTF-8"/>
 		<meta name='viewport' content='width=device-width,initial-scale=1,target-densitydpi=device-dpi'/>
 		<!-- CSS -->
-		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100|Stoke:300' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/responsive.css">
-		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/grid.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100|Stoke:300' rel='stylesheet'/>
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/responsive.css"/>
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/grid.css"/>
 		<!-- JS -->
 		<!-- gross... just gross -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+	</head>
+	<body>
+				<!-- JS pt2 -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/content.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scroll.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
-	</head>
-	<body>
+
 		<div class="loading">
 			<div class="loading-center" align="center">
-				<img src="<?php bloginfo('template_url'); ?>/imgs/m-light.png" class="stache loading-stache"/>
+				<img src="<?php bloginfo('template_url'); ?>/imgs/m-light.png" alt="" class="stache loading-stache"/>
 			</div>
 		</div>
 
@@ -53,7 +55,7 @@
 		<!-- end of mobile navbar -->
 
 		<!-- start of hero -->
-		<div class="header" align="center">
+		<header class="header" align="center" role="banner">
 			<h1><?php echo get_bloginfo('name'); ?></h1>
 			<!-- remove this if you don't want description on homepage -->
 			<?php if (get_bloginfo('description') <> '') : ?>
@@ -61,5 +63,5 @@
 			<?php endif; ?>
 			<!-- end of description -->
 			<img src="<?php bloginfo('template_url'); ?>/imgs/m-light.png" class="stache"/>
-		</div>
+		</header>
 		<!-- end of hero -->
