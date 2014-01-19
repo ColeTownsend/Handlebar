@@ -89,7 +89,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		<?php // if there are widgets in the sidebar... ?>
 		<?php if (is_active_sidebar( 'sidebar-1' )) : ?>
 			<div class="floats" id="blog">
-				<div class="main">
+				<section class="main" role="main">
 					<div class="container">
 						<?php
 							if (is_single() == false) {
@@ -162,8 +162,8 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 						<div class="nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
 						<?php wp_reset_query(); ?>
 					</div>
-				</div>
-				<div class="side">
+				</section>
+				<aside class="side">
 					<div class="sidebar">
 						<div class="grid-container">
 							<div class="grid-100">
@@ -171,7 +171,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 							</div>
 						</div>
 					</div>
-				</div>
+				</aside>
 				<!-- clear the floats -->
 				<div style="clear: both;"></div>
 			</div>
@@ -180,7 +180,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 			<?php else : ?>
 
 				<div class="full">
-					<div class="main" style="float: none; width: 100%;">
+					<sectoin class="main" style="float: none; width: 100%;" role="main">
 						<div class="container">
 							<div class="grid-container">
 								<?php
@@ -248,7 +248,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 							<div class="nav-next alignright"><?php previous_posts_link('Newer posts'); ?></div>
 						<?php wp_reset_query(); ?>
 						</div>
-					</div>
+					</section>
 				</div>
 		<?php endif; ?>
 		<!-- end of blog -->
@@ -320,7 +320,5 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 			</div>
 		</div>
 		<!-- end of mobile blog -->
-
-
 
 <?php get_footer(); ?>

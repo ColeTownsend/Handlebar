@@ -9,7 +9,7 @@
 				</div>
 			</div>
 		</span>
-		
+
 		<!-- start of bottom widget area -->
 		<?php if (is_active_sidebar('bottom')) : ?>
 			<div class="bottom">
@@ -23,23 +23,23 @@
 		<!-- end of bottom widget area -->
 
 		<!-- start of footer -->
-		<div class="footer">
+		<footer class="footer" role="contentinfo">
 			<div class="grid-container">
 				<div class="grid-100">
 					<p class="footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?></p>
 					<p class="footer-text">Handlebar by <a href="http://codingbean.org" style="color: #4D4D4D; text-decoration: none;">Codingbean</a></p>
 				</div>
 			</div>
-		</div>
+		</footer>
 		<!-- end of footer -->
 
 		<!-- start of mobile footer -->
-		<div class="mobile-footer">
+		<footer class="mobile-footer" role="contentinfo">
 			<div class="mobile-footer-textholder">
 				<p class="mobile-footer-text">&copy; <?php echo get_bloginfo('name'); ?> <?php echo date("Y"); ?></p>
 				<p class="mobile-footer-text">Handlebar by <a href="http://codingbean.org" style="color: #4D4D4D; text-decoration: none;">Codingbean</a></p>
 			</div>
-		</div>
+		</footer>
 		<!-- end of mobile footer -->
 	</body>
 </html>
