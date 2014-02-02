@@ -14,10 +14,6 @@ Features include...
 
 Having issues with Handlebar or found a bug? Email me at iam@codingbean.com, and I'll get back to you as soon as possible.
 
-### Demo
-
-Want to check out Handlebar before you upload it to your blog? [Here's the demo](http://codingbean.com/theme/handlebar/). It's kept up-to-date with each release.
-
 ### Use
 
 Ready to use Handlebar on your blog? Awesome! Just visit [here](https://github.com/Codingbean/Handlebar/releases) and download the latest stable release. From there, just extract the ZIP, and upload the file titled 'Handlebar' to your WordPress install. Easy, peasy. Lemon squeezy.
