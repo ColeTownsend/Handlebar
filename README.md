@@ -10,10 +10,6 @@ Features include...
   * Jump to top button
   * And more!
 
-### Support
-
-Having issues with Handlebar or found a bug? Email me at iam@codingbean.com, and I'll get back to you as soon as possible.
-
 ### Use
 
 Ready to use Handlebar on your blog? Awesome! Just visit [here](https://github.com/Codingbean/Handlebar/releases) and download the latest stable release. From there, just extract the ZIP, and upload the file titled 'Handlebar' to your WordPress install. Easy, peasy. Lemon squeezy.
